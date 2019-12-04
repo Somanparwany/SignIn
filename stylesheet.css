@@ -1,9 +1,41 @@
 body {
   font-family: "Open Sans", sans-serif;
-  padding:0;
-  margin:0;
+  height:100%;
 }
 
+
+nav {
+  height: 90px;
+  position: absolute;
+  background-color: #F3F9FE;
+}
+
+
+.logo {
+  width: 170px;
+  margin-left: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+
+img {
+  width: 70%;
+  height: auto;
+  float: left;
+}
+
+.col-sm-6 {
+  margin-top: 20%;
+}
+
+
+.container {
+  overflow: hidden;
+  margin-bottom: 2%;
+  height: 100%;
+
+}
 
 #card {
   background: rgb(191,224,243);
@@ -16,45 +48,12 @@ body {
 }
 
 
-button {
-  width: 240px;
-  height: 44px;
-  left: 600px;
-  top: 508px;
-  border-radius: 24px;
-  background: #d44f1b;
-  color: #F0FFF0;
-  font-weight: bold;
-}
-
-nav {
-  height: 90px;
-  position: relative;
-  background-color: #F3F9FE;
-}
-
-
-img {
-  width: 70%;
-  height: auto;
-  float: left;
-}
-
-
-.logo {
-  width: 170px;
-  margin-left: 40px;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-
 h2 {
   margin-top: 50px;
   margin-bottom: 35px;
   line-height: 26px; 
 }
-  
+
 
 #username, #password {
   margin-bottom: 20px;
@@ -68,21 +67,6 @@ h2 {
   width: calc(100% - 110px);
 }
 
-input, button {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-a {
-  color: grey; 
-  text-decoration: underline;
-}
-
-p {
-  margin-top: 15px;
-  font-size: 12px;
-  color: grey	;
-}
 
 #forgot-password {
   color: #4db8ff;
@@ -95,19 +79,96 @@ p {
   top: 215px;
   right: 100px;
 }
-
-
-.col-sm-6 {
-  margin-top: 20%;
+  
+  
+input, button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
+
+
+button {
+  width: 240px;
+  height: 44px;
+  left: 600px;
+  top: 508px;
+  border-radius: 24px;
+  background: #d44f1b;
+  color: #F0FFF0;
+  font-weight: bold;
+  box-shadow: none;
+}
+
+
+p {
+  margin-top: 15px;
+  font-size: 12px;
+  color: grey	;
+}
+
+
+a {
+  color: grey; 
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+.containerMobile {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.cardError {
+  background: rgb(191,224,243);
+  background: linear-gradient(177deg, rgba(191,224,243,1) 0%, rgba(255,255,255,1) 70%);
+  text-align-last: center;
+  border-radius: 2%;
+  border-color: white;
+  margin-top: 8%;
+  height: 250px;
+  width: 100%;
+}
+
+
+.cardText {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.containerMobile p {
+   color: black;
+}
+
+
+
+
+
+
+
+
+
+
 
 footer {
   background-color: #F3F9FE;
   text-align-last: center;
-  padding-top: 30px;
+  padding-top: 20px;
   width: 100%;
   bottom: 0;
-  position: fixed;
+  
   overflow: hidden; 
 }
 
@@ -123,88 +184,4 @@ footer p, footer a {
   text-align: center;
   text-decoration: none;
 }
-
-
-.containerMobile {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-.card {
-  background: rgb(191,224,243);
-  background: linear-gradient(177deg, rgba(191,224,243,1) 0%, rgba(255,255,255,1) 70%);
-  text-align-last: center;
-  border-radius: 2%;
-  border-color: white;
-  margin-top: 10%;
-  margin-bottom: auto;
-  height: 250px;
-  width: 100%;
-
-}
-
-
-.cardMobile {
-  padding-top: 10%;
-  padding-bottom: 10%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-.containerMobile p {
-   color: black;
-   content: hidden;
-   
-}
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

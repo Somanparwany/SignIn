@@ -7,13 +7,13 @@
   
 <title>Log in</title>
 
-<!-- Link for responsiveness --> 
+  <!-- Link for responsiveness --> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Link for the font --> 
+  <!-- Link for the font --> 
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 
-<!-- Link for Bootstrap --> 
+  <!-- Link for Bootstrap --> 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -25,13 +25,17 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
   
+  <!-- Favicon --> 
+  <link rel="shortcut icon" href="https://www.programmads.com/wp-content/uploads/2018/03/cropped-pa-fav-1-270x270.png" />
+  
   <!-- Link for the eye icon --> 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Link to the CSS file -->
-<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+  
+  
 </head>
-
 <body>
   
   <!-- Navbar --> 
@@ -42,7 +46,7 @@
 </nav>
    
  
-<div id='content' class="container" align="center">
+<div id="content" class="container" align="center">
   <div class="row">
      
      <!-- Image --> 
@@ -52,12 +56,10 @@
      <!-- Login Card --> 
      <div class="col-sm-6" id="card">
        <h2>Please Sign In</h2>
-       <input type="text" class="form-control" placeholder="Username" id="username" required="required" name="username"><br/>
-       <input type="password" class="form-control" placeholder="Password" id="password" required="required">
+       <input type="text" class="form-control" placeholder="Username" id="username">  <br>
+       <input type="password" class="form-control" placeholder="Password" id="password">
        <i class= "fa fa-eye" id="eye" onClick="viewPS()"></i>
-       <br/>
-       <a id="forgot-password" href="mailto:hello@programmads.com?Subject=Toolbox-%20forgot password" target="_top">Forgot your password?</a> <br/><br/>
-       <!-- <a href="./Toolbox/index.html"> </a> once authenticate -> delete -->
+       <a id="forgot-password" href="mailto:hello@programmads.com?Subject=Toolbox-%20forgot password" target="_top">Forgot your password?</a>         <br/><br/>
        <button id="myButton" type="submit"> Sign in</button>
        <p> &#169; Copyright Programmads </p>
        <a href="#">Terms of Service</a><br/>
@@ -68,8 +70,8 @@
 </div>
 
 <div id ="error" class="containerMobile" align="center">
-  <div class="card">
-    <div class="cardMobile" align="center">
+  <div class="cardError">
+    <div class="cardText" align="center">
     <p>You cannot sign in with a mobile phone or an iPad.
     The tools within the platform require a desktop. <br>
     Please use a desktop to sign in.<br> Thank you! </p>
@@ -78,13 +80,6 @@
 </div>
 
 
-<br/>
-<br/>
-<br/>
-<br/>
-
-
- 
 
 <!-- Footer --> 
 <footer  align="center">
