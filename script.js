@@ -1,3 +1,5 @@
+// If on mobile or desktop
+
  if (/Android|webOS|iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
    document.getElementById("content").hidden = true;
    document.getElementById("error").hidden = false;
@@ -27,7 +29,7 @@ var eye = document.getElementById('eye');
 }
 
 
-// Username or Password = not filled in 
+// When Username or Password is not filled in 
 
 var button = document.getElementById('myButton');
 
@@ -37,9 +39,7 @@ var button = document.getElementById('myButton');
     var username = document.getElementById('username');
     
     if (username.value === "") {
-   //   username.style.background = "white";
     alert ("Please fill in your name");
-     //username.innerHTML = "Empty Mail o Username";
     } valid = false;
     
     if (password.value === "") {
@@ -48,15 +48,6 @@ var button = document.getElementById('myButton');
 
 
 });
-
-// When username and password is filled in, it should redirect to Programmads Toolbox
-function whenClicked() {
-  var myBtn = document.getElementById('myButton');
-  
-  if (myBtn.clicked) {
-    
-  }
-}
 
 
  
