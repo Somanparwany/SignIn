@@ -168,7 +168,7 @@ footer {
   padding-top: 20px;
   width: 100%;
   bottom: 0;
-  
+  position: fixed;
   overflow: hidden; 
 }
 
