@@ -29,25 +29,9 @@ var eye = document.getElementById('eye');
 }
 
 
-// When Username or Password is not filled in 
-
-var button = document.getElementById('myButton');
-
-  button.addEventListener('click', function validateInput() {
-    
-    var password = document.getElementById('password');
-    var username = document.getElementById('username');
-    
-    if (username.value === "") {
-    alert ("Please fill in your name");
-    } valid = false;
-    
-    if (password.value === "") {
-    alert ('Please fill in your password');
-    } valid = false;
 
 
-});
+
 
 
  

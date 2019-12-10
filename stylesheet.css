@@ -79,19 +79,19 @@ h2 {
 
 #eye {
   position: absolute;
-  top: 215px;
+  top: 44%;
   right: 100px;
 }
   
   
-input, button {
+input,  #myButton {
   display: block;
   margin-right: auto;
   margin-left: auto;
 }
 
 
-button {
+#myButton {
   width: 240px;
   height: 44px;
   left: 600px;
@@ -101,6 +101,8 @@ button {
   color: #F0FFF0;
   font-weight: bold;
   box-shadow: none;
+  border-style: solid;
+  border-color: white;
 }
 
 
@@ -170,5 +172,12 @@ footer p, footer a {
   color: black;
   text-align: center;
   text-decoration: none;
+}
+
+
+
+
+#alert {
+  display:none;
 }
 
